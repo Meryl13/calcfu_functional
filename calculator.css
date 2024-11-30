@@ -1,0 +1,81 @@
+body {
+  background-image: url('meow.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.calculator {
+	width: 550px;
+	height: 680px;
+	margin: 50px auto;
+	background-color: black;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+}
+
+.entry{
+    width: 92%;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    font-size: 35px;
+    
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+	padding-top: 40px;
+	margin-left: 15px;
+	
+}
+
+.button {
+	background-color: gray;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	height: 80px;
+	width: 100px;
+	font-size: 35px;
+}
+
+button:hover {
+  background-color: #fac32a;
+  color: white;
+}
+
+.button1 {
+	background-color: #212741;
+	color: #ffb22bec;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	height: 80px;
+	width: 103px;
+	font-size: 30px;
+}
+
+.button2 {
+	background-color: #ffb22bf7;
+	color: black;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	height: 80px;
+	width: 100px;
+	font-size: 35px;
+}
+
+
+
